@@ -1,0 +1,205 @@
+"* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .image-container {
+    display: flex;
+    }
+    
+    .image-container img {
+    width: 100%;
+    }
+    
+  
+    
+    #hero {
+    position: relative;
+    text-align: center;
+    }
+    
+    #hero #back {
+    width: 100%;
+    }
+    
+    #hero #logo {
+    width: 15%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    #hero .informacion-contenedor {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 0 50px;
+    }
+    
+    #hero .informacion-contenedor #foto {
+    width: 20%;
+    margin-bottom: 5%;
+    }
+    
+    #hero .informacion-contenedor #foto img {
+    border-radius: 100%;
+    }
+    
+    #hero .informacion-contenedor .informacion {
+    font-weight: bold;
+    }
+    
+    #hero .informacion-contenedor .informacion span {
+    color: #b5b5b5;
+    }
+    
+    main {
+    padding: 100px;
+    }
+    
+    p {
+    margin: 1em 0;
+    }
+    
+    main .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 70%;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    
+    main .social-icons li {
+        margin-left: 5%;
+        width: 20%;
+        text-align: center;
+        flex-grow: 1;
+    }
+    
+    main .social-icons .social-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        border-radius: 5px;
+        height: 10%;
+    }
+    
+    main .social-icons #LinkedIn {
+        background: #0077b0;
+    }
+    
+    main .social-icons #GitHub {
+        background: #23272d;
+    }
+    
+    main .social-icons #Twitter {
+        background: #1da1f2;
+    }
+    
+    main .social-icons #instagram {
+        background: rgb(255, 218, 218);
+    }
+    @media (max-width: 480px) {
+        main .social-icons li {
+          width: 40%;
+          flex-basis: calc(40% - 16px);
+        }
+      }
+
+      .panel {
+        width: 50%;
+        height: 200px;
+        background-color: lightgray;
+        overflow: hidden;
+        position: relative;
+        margin: 50px auto;
+      }
+      .scroll-bar {
+        width: 100%;
+        height: 20px;
+        background-color: gray;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      .thumb {
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        cursor: pointer;
+      }
+      .text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        overflow: auto;
+        padding: 10px;
+      }
+      ol {
+        padding-left: 20px;
+      }
+    section{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        box-sizing: border-box;}
+        .trabajo
+        {
+            outline-style: dashed;
+        }
+        #pro .txt {
+            h1 {
+              color: #fff;
+              text-shadow: 1px 2px 2px #000, 0 0 25px blue, 0 0 5px blue;
+              text-align: center;
+            }
+          }
+          
+          #pro div.galeriaP {
+            margin: 10px 20px;
+            box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            float: left;
+            width: 100%;
+          }
+          
+          @media (min-width: 992px) {
+            #pro div.galeriaP {
+              width: calc(33% - 40px);
+              display: inline-block;
+            }
+          }
+          
+          #pro div.galeriaP img {
+            width: 100%;
+            height: 25%;
+          }
+          
+          #pro div.galeriaP:hover {
+            border: 1px solid lightcoral;
+            
+          }
+          
+          #pro div.pie {
+            text-align: center;
+            text-shadow: 2px 2px 5px purple;
+            padding: 10px;
+          }
+          
